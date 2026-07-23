@@ -1,12 +1,8 @@
 :root {
   --primary: #000000;
-  --secondary: #ffffff;
   --accent: #FF6600;
-  --accent-dark: #E55A00;
   --text: #1a1a1a;
   --text-light: #666666;
-  --background: #ffffff;
-  --border: #e0e0e0;
 }
 
 * {
@@ -20,9 +16,9 @@ html {
 }
 
 body {
-  background: var(--background);
+  background: #ffffff;
   color: var(--text);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
   line-height: 1.6;
 }
 
@@ -31,24 +27,20 @@ h1 {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.1;
-  letter-spacing: -1px;
 }
 
 h2 {
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1.2;
-  margin-bottom: 1rem;
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 0.75rem;
 }
 
 p {
-  font-size: 1rem;
   color: var(--text-light);
   line-height: 1.8;
 }
@@ -69,8 +61,14 @@ p {
 }
 
 .btn:hover {
-  background: var(--accent-dark);
+  opacity: 0.9;
   transform: translateY(-2px);
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 /* Images */
@@ -88,5 +86,9 @@ img {
 
   h2 {
     font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
   }
 }
