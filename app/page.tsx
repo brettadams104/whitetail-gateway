@@ -4,7 +4,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <img src="/logo.png" alt="Whitetail Gateway" className="h-16 w-auto" />
+          <img src="/logo.png" alt="Whitetail Gateway" className="h-24 w-auto" />
           <div className="hidden md:flex gap-12">
             <a href="#about" className="text-sm font-semibold text-gray-700 hover:text-orange-600 transition">About</a>
             <a href="#programs" className="text-sm font-semibold text-gray-700 hover:text-orange-600 transition">Programs</a>
