@@ -22,7 +22,7 @@ export default function Home() {
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}>
-        <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-black/50 to-black/60"></div>
 
         <div className="relative max-w-6xl mx-auto px-6 py-12">
           <div className="max-w-3xl">
