@@ -18,8 +18,8 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative w-full pt-32 pb-24 bg-gradient-to-br from-gray-900 to-gray-800 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-20" style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80)',
+        <div className="absolute inset-0 opacity-40" style={{
+          backgroundImage: 'url(/hero-deer.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}></div>
