@@ -17,12 +17,12 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative w-full pt-32 pb-24 bg-gradient-to-br from-gray-900 to-gray-800 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-40" style={{
-          backgroundImage: 'url(/hero-deer.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
-        }}></div>
+      <section className="relative w-full pt-32 pb-24 text-white overflow-hidden" style={{
+        backgroundImage: 'url(/hero-deer.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}>
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/80 to-gray-800/80"></div>
 
         <div className="relative max-w-6xl mx-auto px-6 py-12">
           <div className="max-w-3xl">
